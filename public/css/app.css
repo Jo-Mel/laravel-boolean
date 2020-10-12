@@ -10911,8 +10911,7 @@ a.text-dark:focus {
 }
 
 .card-group .card {
-  width: 33.3%;
-  min-width: 33.3%;
+  min-width: 33.33%;
   margin: 30px;
 }
 
