@@ -10899,3 +10899,24 @@ a.text-dark:focus {
   }
 }
 
+.ctn {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-group {
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: scroll;
+}
+
+.card-group .card {
+  width: 33.3%;
+  min-width: 33.3%;
+  margin: 30px;
+}
+
+.card-group .card img {
+  width: 250px;
+}
+
