@@ -23,5 +23,7 @@ class StudentController extends Controller
         if(!array_key_exists($id, $this->students)) {
             abort(404);
         }
+        $student = $this->students[$id];
+        return view('show', compact('student') );
     }
 }
